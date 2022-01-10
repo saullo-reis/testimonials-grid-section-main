@@ -1,0 +1,19 @@
+@media(max-width:1000px){
+    body{
+        grid-template-areas: "daniel jonathan"
+        "kira jeanette"
+        "patrick patrick";
+    }
+}
+@media(max-width:425px){
+    body{
+        grid-template-areas: "daniel"
+        "jonathan"
+        "kira"
+        "jeanette"
+        "patrick";
+    }
+    .image-aspas{
+        display: none;
+    }
+}

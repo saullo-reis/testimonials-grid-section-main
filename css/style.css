@@ -1,0 +1,168 @@
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(210, 46%, 95%);
+}
+
+body{
+    display: grid;
+    grid-template-areas: "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+    font-size: 0.8rem;
+    padding:0 5rem;
+    height: 50%;
+}
+
+.container-daniel{
+    background-color: hsl(263, 55%, 52%);
+    grid-area:daniel;
+    position: relative;
+    z-index: 100
+}
+
+.container-daniel .img-daniel{
+    border-radius: 100%;
+    border: solid hsl(263, 55%, 60%);
+    width: 35px;
+    height: 35px;
+}
+
+.image-aspas img{
+    position: absolute;
+    right: 75px;
+    top: 5px;
+    z-index: -1;
+
+}
+
+.containers .box{
+    display: flex;
+}
+
+.container-daniel .name-daniel{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    position: relative;
+}
+
+.container-daniel .name-daniel .name{
+    font-weight: bold;
+    color: hsl(0, 0%, 82%);
+    margin-bottom: 3px;
+}
+
+.container-daniel h3{
+    color: hsl(0, 0%, 92%);
+    z-index: 100
+
+}
+
+.container-jonathan{
+    background-color: hsl(217, 19%, 35%);
+    grid-area:jonathan;
+}
+
+.container-jonathan img{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px
+
+}
+
+.container-jonathan .name-jonathan{
+    margin-left: 10px;
+}
+
+.container-jonathan .name-jonathan .name{
+    margin-bottom: 3px;
+    font-weight: bold;
+    color: hsl(0, 0%, 82%);
+}
+
+.container-jonathan h3{
+    color: hsl(0, 0%, 92%);
+    margin:10px auto
+}
+
+.container-patrick{
+    background-color: hsl(219, 29%, 14%);
+    grid-area: patrick;
+}
+
+.container-patrick img{
+    border-radius: 100%;
+    border: solid hsl(263, 55%, 60%);
+    width: 35px;
+    margin-right: 10px;
+    height: 35px
+}
+
+.container-patrick .name{
+    font-weight: bold;
+    color: hsl(0, 0%, 82%);
+    margin-bottom: 5px;
+}
+
+.container-patrick h3{
+    color: hsl(0, 0%, 92%);
+}
+
+.container-jeanette{
+    grid-area: jeanette;
+    background-color: hsl(0, 0%, 100%);
+
+}
+
+.container-jeanette img{
+    border-radius: 100%;
+    width: 35px;
+    margin-right: 10px;
+    height: 35px
+}
+
+.container-jeanette .name{
+    font-weight: bold;
+    color: hsl(217, 19%, 35%);
+    margin-bottom: 5px;
+}
+
+.container-jeanette h3{
+    color: hsl(217, 19%, 35%);
+}
+
+.container-kira{
+    grid-area: kira;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container-kira .box img{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px
+}
+
+.container-kira .box .name-kira{
+    margin-left: 10px;
+}
+
+.container-kira .box .name-kira .name{
+    margin-bottom: 3px;
+    font-weight: bold;
+    color: hsl(217, 19%, 35%);
+    
+}
+
+.container-kira h3{
+    color: hsl(217, 19%, 35%);
+    margin: 10px auto;
+}
+
+.containers{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px
+}
